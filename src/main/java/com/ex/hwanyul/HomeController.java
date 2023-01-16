@@ -80,7 +80,7 @@ public class HomeController {
 				JSONObject obj = (JSONObject)arr.get(i);
 				
 				String cur_unit1 = (String)obj.get("cur_unit");	//통화코드
-				String cur_nm1 = (String)obj.get("cur_nm");	//국가/통화명
+				String cur_nm1 = (String)obj.get("cur_nm");	//국가통화명
 				String ttb1 = (String)obj.get("ttb");	//송금 받으실때
 				String tts1 = (String)obj.get("tts");	//송금 보내실때
 				String deal_bas_r1 = (String)obj.get("deal_bas_r");	//매매 기준율
